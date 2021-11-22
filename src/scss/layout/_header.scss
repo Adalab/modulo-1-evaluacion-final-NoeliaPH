@@ -1,0 +1,22 @@
+.header {
+  background-image: url("../images/cover.jpg");
+  height: 100vh;
+  color: $color-white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+.title1 {
+  /*display: flex;
+  flex-wrap: wrap;*/
+  word-wrap: break-word;
+}
+.proxy {
+  text-align: center;
+}
+.imgheader {
+  height: 10px;
+  width: 10px;
+  background-color: $color-white;
+}

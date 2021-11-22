@@ -1,0 +1,22 @@
+.footer {
+  background-color: #312d62;
+  color: $color-white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.list1 {
+  margin-top: 60px;
+  margin-bottom: 30px;
+  line-height: 2em;
+}
+.list2 {
+  line-height: 2em;
+  margin-bottom: 15px;
+}
+.copy {
+  margin-bottom: 45px;
+  line-height: 2em;
+}
