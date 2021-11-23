@@ -1,9 +1,30 @@
 .insomnia {
-  height: 100%;
-  display: grid;
-  grid-template-rows: auto auto auto auto;
+  height: 376px;
+  padding: 30px 15px 45px 15px;
+  /*display: grid;
+  grid-template-rows: auto auto auto auto;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .tips {
   color: #8ccbea;
+  font-size: 14px;
   margin-right: 15px;
+}
+.titleinsomnia {
+  font-size: 24px;
+}
+.textinsomnia {
+  font-size: 18px;
+}
+.buttongo {
+  font-size: 20px;
+  color: $color-orange;
+  font-weight: bold;
+  box-sizing: border-box;
+  border-radius: 30px;
+  border: solid $color-orange 2px;
+  width: 76px;
+  height: 45px;
 }

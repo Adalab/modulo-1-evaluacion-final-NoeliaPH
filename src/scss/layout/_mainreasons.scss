@@ -1,32 +1,30 @@
 .reasons {
   background-color: #99ffff;
+  padding: 0px 70px 0px 70px;
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
-/*.title3 {
-  grid-column: 1/5;
-}
-.title4 {
-  grid-column: 2/4;
-}
-.text {
-  grid-column: 2/4;
-}
-.buttonmore {
-  grid-column: 2/4;
-}*/
 
-.title4 {
-  margin-left: 70px;
-  margin-right: 70px;
+.reasons1,
+.reasons2 {
+  font-size: 18px;
+  margin-bottom: 45px;
 }
-.text {
-  margin-left: 70px;
-  margin-right: 70px;
+.reasons3 {
+  font-size: 18px;
+}
+.buttonreasons {
+  text-align: center;
 }
 .buttonmore {
-  margin-left: 70px;
-  margin-right: 70px;
+  box-sizing: border-box;
+  width: 184px;
+  height: 45px;
+  border-radius: 30px;
+  background-color: $color-orange;
+  color: $color-white;
 }
