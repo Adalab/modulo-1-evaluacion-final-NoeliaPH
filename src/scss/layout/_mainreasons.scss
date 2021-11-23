@@ -20,6 +20,7 @@
 .buttonreasons {
   text-align: center;
 }
+
 .buttonmore {
   box-sizing: border-box;
   width: 184px;
@@ -27,4 +28,9 @@
   border-radius: 30px;
   background-color: $color-orange;
   color: $color-white;
+  transition: color 1s;
+}
+
+.buttonmore:hover {
+  color: black;
 }

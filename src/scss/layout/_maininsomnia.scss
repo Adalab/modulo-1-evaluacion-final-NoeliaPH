@@ -27,4 +27,10 @@
   border: solid $color-orange 2px;
   width: 76px;
   height: 45px;
+  transition-delay: 1s;
+  transition-property: background-color;
+}
+
+.buttongo:hover {
+  background-color: black;
 }
