@@ -1,6 +1,7 @@
 .footer {
   width: auto;
   height: auto;
+  font-family: "Roboto", sans-serif;
   background-color: #312d62;
   color: $color-white;
   display: flex;
@@ -35,6 +36,7 @@
   color: $color-white;
 }
 .list1 {
+  font-size: 16px;
   margin-top: 60px;
   margin-bottom: 30px;
   line-height: 2em;
@@ -44,11 +46,13 @@
   }
 }
 .list2 {
+  font-size: 16px;
   line-height: 2em;
   margin-bottom: 15px;
   text-transform: uppercase;
 }
 .copy {
+  font-size: 14px;
   margin-bottom: 45px;
   line-height: 2em;
   @media all and (min-width: 768px) {
@@ -64,5 +68,10 @@
     justify-content: space-between;
     align-items: center;
     text-align: left;
+  }
+}
+@media (min-width: 1280px) {
+  .boxfooter {
+    justify-content: space-evenly;
   }
 }

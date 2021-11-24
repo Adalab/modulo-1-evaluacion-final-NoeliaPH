@@ -51,7 +51,7 @@ node_modules/
 *.js.map
 
 # Public folder
-Public
+public
 
 # vscode
 .vscode
