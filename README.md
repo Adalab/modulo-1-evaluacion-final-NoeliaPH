@@ -18,7 +18,9 @@ Como te decía, solo llevo unas semanas de clase. Me estoy preparando para ser p
 #### Construido con 🛠️
 
 •	Visual Studio Code (https://code.visualstudio.com)
+
 •	Adalab-Web-Starter-Kit
+
 •	Paciencia, mucha paciencia.
 
 
